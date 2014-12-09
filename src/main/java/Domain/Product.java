@@ -3,13 +3,19 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
-package DAO;
+package Domain;
 
 /**
  *
  * @author Jesse
  */
-public class TestClass {
-    
+public class Product {
+
+    private String naam;
+    private int prijs;
+
+    public Product(String naam, int prijs) {
+        this.naam = naam;
+        this.prijs = prijs;
+    }
 }
